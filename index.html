@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stampee — Trésors de la Collection du Vatican</title>
+
+  <!-- Google Fonts: Roboto (body) + Rubik (buttons/labels) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <a href="#" class="logo">MAISON STAMPEE</a>
+    </div>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#" class="nav-link">Accueil</a>
+      <a href="#" class="nav-link">Enchères</a>
+      <a href="#" class="nav-link">Archives</a>
+      <a href="#" class="nav-link">Profil</a>
+      <a href="#" class="nav-link">Actualités</a>
+      <a href="#" class="nav-link">Aide</a>
+    </nav>
+
+    <!-- New search bar -->
+    <form class="nav-search" role="search" aria-label="Rechercher">
+      <input type="search" placeholder="Rechercher…" aria-label="Recherche">
+      <button type="submit">🔍</button>
+    </form>
+
+    <div class="actions">
+      <a href="#" class="btn btn-outline">Se connecter</a>
+      <a href="#" class="btn btn-primary">Devenir membre</a>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="hero-title">Trésors de la Collection du Vatican</h1>
+          <p class="lead">
+            Célébrez l’élection papale avec des artefacts et timbres rares. Enchérez en toute confiance et suivez votre collection facilement à la Maison Stampee.
+          </p>
+          <div class="hero-cta">
+            <a href="#auctions" class="btn btn-primary">Voir les enchères</a>
+            <a href="#about" class="btn btn-secondary">À propos du Lord</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- Featured stamp card -->
+          <article class="stamp-card featured">
+            <div class="perforation top"></div>
+            <div class="stamp-body">
+              <div class="stamp-image" role="img" aria-label="Image du timbre — Trésor du Vatican">
+                <span class="img-placeholder">IMAGE</span>
+              </div>
+              <div class="stamp-meta">
+                <h3 class="stamp-title">Timbre: Trésor du Vatican</h3>
+                <p class="meta-line"><strong>Année:</strong> 1950 — <strong>Pays:</strong> Vatican</p>
+                <p class="meta-line"><strong>Condition:</strong> Parfaite</p>
+                <p class="price">Prix actuel: <span>€500</span></p>
+                <div class="stamp-actions">
+                  <button class="btn btn-primary">Placer une Offre</button>
+                  <button class="btn btn-ghost">Zoom</button>
+                </div>
+              </div>
+            </div>
+            <div class="perforation bottom"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Auctions grid -->
+    <section id="auctions" class="container auctions">
+      <h2 class="section-title">Lots Vedettes</h2>
+      <div class="cards-grid">
+        <!-- Reusable stamp card (perforation effect) -->
+        <article class="stamp-card">
+          <div class="perforation top"></div>
+          <div class="stamp-body">
+            <div class="stamp-image" role="img" aria-label="Image du timbre">
+              <span class="img-placeholder">IMG</span>
+            </div>
+            <div class="stamp-meta">
+              <h4 class="stamp-title">Trésor A</h4>
+              <p class="meta-line">Royaume-Uni · 1947</p>
+              <p class="price small">Prix actuel: <span>£250</span></p>
+              <div class="stamp-actions">
+                <a class="btn btn-primary small" href="#">Offrir</a>
+                <a class="link-secondary" href="#">Détails</a>
+              </div>
+            </div>
+          </div>
+          <div class="perforation bottom"></div>
+        </article>
+
+        <article class="stamp-card">
+          <div class="perforation top"></div>
+          <div class="stamp-body">
+            <div class="stamp-image" role="img" aria-label="Image du timbre">
+              <span class="img-placeholder">IMG</span>
+            </div>
+            <div class="stamp-meta">
+              <h4 class="stamp-title">Trésor B</h4>
+              <p class="meta-line">France · 1930</p>
+              <p class="price small">Prix actuel: <span>€120</span></p>
+              <div class="stamp-actions">
+                <a class="btn btn-primary small" href="#">Offrir</a>
+                <a class="link-secondary" href="#">Détails</a>
+              </div>
+            </div>
+          </div>
+          <div class="perforation bottom"></div>
+        </article>
+
+        <article class="stamp-card">
+          <div class="perforation top"></div>
+          <div class="stamp-body">
+            <div class="stamp-image" role="img" aria-label="Image du timbre">
+              <span class="img-placeholder">IMG</span>
+            </div>
+            <div class="stamp-meta">
+              <h4 class="stamp-title">Trésor C</h4>
+              <p class="meta-line">Canada · 1955</p>
+              <p class="price small">Prix actuel: <span>CAD 300</span></p>
+              <div class="stamp-actions">
+                <a class="btn btn-primary small" href="#">Offrir</a>
+                <a class="link-secondary" href="#">Détails</a>
+              </div>
+            </div>
+          </div>
+          <div class="perforation bottom"></div>
+        </article>
+
+        <!-- Add more cards as needed -->
+      </div>
+    </section>
+
+    <!-- About / Pitch -->
+    <section id="about" class="container about">
+      <h2 class="section-title">À propos</h2>
+      <p>
+        J’ai choisi d’<strong>honorer le bleu</strong>, couleur favorite de Lord Stampee, et d’ajouter des touches de <strong>doré</strong> et de <strong>violet</strong> pour évoquer la royauté et l’exclusivité.
+        L’esthétique est <em>minimaliste mais élevée</em>, reflétant prestige et élégance tout en restant moderne et accessible — pensée pour Philippe, Alice et Thomas.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="logo-footer">MAISON STAMPEE</p>
+        <p class="small">Plateforme d’enchères de timbres — Tradition & prestige</p>
+      </div>
+
+      <div class="footer-right">
+        <nav class="footer-nav">
+          <a class="link-secondary" href="mailto:contact@stampee.com">contact@maisonstampee.com</a>
+          <a class="link-secondary" href="#">Termes et conditions</a>
+          <a class="link-secondary" href="#">Aide</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
